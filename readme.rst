@@ -1,70 +1,59 @@
-###################
-What is CodeIgniter
-###################
+GLDNBOY Store Website
+=====================
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+Welcome to the official repository for the GLDNBOY Store website! This web application is built using the PHP programming language with the CodeIgniter 3 framework. Below, you'll find essential information about GLDNBOY, the website, and the development environment.
 
-*******************
-Release Information
-*******************
+.. image:: https://i.ibb.co/R7MqdQ9/bannergb.jpg
+   :align: center
+   :alt: GLDNBOY Banner
+   :width: 500px
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+About GLDNBOY
+------------
 
-**************************
-Changelog and New Features
-**************************
+GLDNBOY started as a passion project, creating unique t-shirts under their own brand for personal use. In 2020, the brand was officially introduced to the public. "GLDNBOY" represents individuals who consistently enjoy special privileges in their lives, embodying the idea that pop culture is at the core of their identity.
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+GLDNBOY Store
+-------------
 
-*******************
-Server Requirements
-*******************
+The GLDNBOY Store is the official retail platform for GLDNBOY's merchandise. This online store provides customers with a convenient way to explore and purchase the latest clothing items from the brand.
 
-PHP version 5.6 or newer is recommended.
+.. image:: https://i.ibb.co/QnDKj8Z/gldnboy.png
+   :align: center
+   :alt: GLDNBOY Logo
+   :width: 300px
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+Technology Stack
+----------------
 
-************
-Installation
-************
+The website is developed using the following technologies:
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+- **PHP**: The core programming language for server-side logic.
+- **CodeIgniter 3**: A powerful PHP framework that facilitates the development of robust and scalable web applications.
 
-*******
-License
-*******
+CodeIgniter 3 Overview
+----------------------
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+CodeIgniter 3 is a lightweight yet feature-rich PHP framework that follows the MVC (Model-View-Controller) architectural pattern. Some key features and aspects of CodeIgniter 3 include:
 
-*********
-Resources
-*********
+- **MVC Architecture**: Separation of concerns for better code organization.
+- **Database Support**: Easy integration with databases, including ActiveRecord for simplified queries.
+- **Helpers and Libraries**: A collection of helpers and libraries for common tasks, enhancing productivity.
+- **Security Features**: Built-in tools for data validation, XSS and CSRF protection, and more.
+- **Routing**: Simple and flexible URI routing for clean and SEO-friendly URLs.
+- **Extensive Documentation**: Well-documented features and a supportive community.
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+Getting Started
+---------------
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+To set up the GLDNBOY Store website locally, follow these steps:
 
-***************
-Acknowledgement
-***************
+1. Clone the repository: `git clone https://github.com/your-username/gldnboystore.git`
+2. Configure your web server to point to the project's root directory.
+3. Import the provided database schema to set up the required tables.
+4. Update the database configuration in `application/config/database.php` with your credentials.
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+Contact
+-------
+
+For any inquiries or issues, please contact rianirsyahnugrahanto@gmail.com. 🌟
