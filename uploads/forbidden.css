@@ -1,0 +1,364 @@
+.panel-heading a.free::after{
+    content: "";  
+}
+.panel-heading a.free{
+    content: "";
+    color: #333333;
+}
+.product .img-prod span.status{
+    font-size: 11px;
+    background-color: #383838;
+    color: #dbcc8f;
+}
+.ftco-section{
+    padding: 3em 0;
+}
+.price-line-through{
+    text-decoration: line-through;
+    color: red;
+}
+
+.card {
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+fieldset.active {
+    display: block !important
+}
+
+fieldset {
+    display: none
+}
+
+.pic0 {
+    width: 100%;
+    height: auto;
+    margin-left: 25px;
+    margin-right: auto;
+    display: block
+}
+
+.product-pic {
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%
+}
+
+.thumbnails {
+    position: absolute
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+
+.tb {
+    width: 62px;
+    height: 62px;
+    border: 1px solid grey;
+    margin: 2px;
+    opacity: 0.4;
+    cursor: pointer
+}
+
+.tb-active {
+    opacity: 1
+}
+
+.thumbnail-img {
+    width: 60px;
+    height: 60px
+}
+
+@media screen and (max-width: 768px) {
+    .pic0 {
+        width: 250px;
+        height: auto;
+    }
+}
+
+
+
+/*
+    code by Iatek LLC 2018 - CC 2.0 License - Attribution required
+    code customized by Azmind.com
+*/
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Show 4th slide on md if col-md-4*/
+    .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -33.3333%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    .satu {
+        display: none;
+    }
+
+    .dua {
+        display: none;
+    }
+
+    .tiga {
+        display: none;
+    }
+    
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    /* Show 3rd slide on sm if col-sm-6*/
+    .carousel-inner .active.col-sm-6.carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -50%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    .satu {
+        display: none;
+    }
+
+    .dua {
+        display: none;
+    }
+}
+@media (max-width: 576px) {
+    .satu {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .carousel-item {
+        margin-right: 0;
+    }
+    /* show 2 items */
+    .carousel-inner .active + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item {
+        transition: none;
+    }
+    .carousel-inner .carousel-item-next {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+    /* left or forward direction */
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* farthest right hidden item must be also positioned for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    /* right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+
+    .satu {
+        display: none;
+    }
+
+    .dua {
+        display: none;
+    }
+}
+/* MD */
+@media (min-width: 768px) {
+    /* show 3rd of 3 item slide */
+    .carousel-inner .active + .carousel-item + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    .carousel-inner .carousel-item-next {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+    /* left or forward direction */
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* right or prev direction */
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+
+    .satu {
+        display: none;
+    }
+
+    .dua {
+        display: none;
+    }
+
+    .tiga {
+        display: none;
+    }
+}
+/* LG */
+@media (min-width: 991px) {
+    /* show 4th item */
+    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    /* Show 5th slide on lg if col-lg-3 */
+    .carousel-inner .active.col-lg-3.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -25%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    /* left or forward direction */
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* right or prev direction //t - previous slide direction last item animation fix */
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+
+    .satu {
+        display: none;
+    }
+
+    .dua {
+        display: none;
+    }
+
+    .tiga {
+        display: none;
+    }
+
+    .empat {
+        display: none;
+    }
+}
+
+#carousel-example {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* .carousel-item {
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.selected img {
+	opacity:0.5;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
+
+.carousel-control .prev,
+.carousel-control .next {
+  background: none;
+  border: none;
+}
+
+.carousel-control .prev {
+  margin-left: -25px;
+}
+
+.carousel-control .next {
+  margin-right: -25px;
+}
+
+.carousel-control {
+  width: 0%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  color: grey;
+  font-size: 40px;
+}
+
+.img-other{
+    width: auto;
+}
+
+.stock_hide {
+    display: none;
+}
+
+.bg-body{
+    background-color: #383838;
+}
+
+.error-container {
+    height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: montserrat, sans-serif;
+    
+}
+
+.big-text {
+    font-size: 200px;
+    font-weight: 900;
+    font-family: sans-serif;
+    background: url(https://cdn.pixabay.com/photo/2020/06/04/06/22/mockup-5257437_960_720.jpg) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+    background-position: center;
+}
+
+.small-text {
+    font-family: montserrat, sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
