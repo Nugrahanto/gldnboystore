@@ -48,7 +48,7 @@ Getting Started
 
 To set up the GLDNBOY Store website locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/gldnboystore.git`
+1. Clone the repository: `git clone https://github.com/Nugrahanto/gldnboystore.git`
 2. Configure your web server to point to the project's root directory.
 3. Import the provided database schema to set up the required tables.
 4. Update the database configuration in `application/config/database.php` with your credentials.
